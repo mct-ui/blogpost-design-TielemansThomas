@@ -190,6 +190,33 @@ a:focus {
 }
 
 /*
+    component author
+*/
+
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.c-author__image {
+  height: 56px;
+  width: 56px;
+  border-radius: 100%;
+}
+
+.c-author__name,
+.c-author__job {
+  margin-bottom: 0;
+}
+
+.c-author__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*
     Print styles.
     ---
     Inlined to avoid the additional HTTP request:
